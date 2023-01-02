@@ -5,6 +5,7 @@ import 'package:tubes_provis/Pages/LoginRegister/SignupForm.dart';
 import 'package:tubes_provis/Pages/LoginRegister/Logo.dart';
 import 'package:tubes_provis/utils.dart';
 import 'package:tubes_provis/Pages/LoginRegister/Get_started.dart';
+import 'package:tubes_provis/Pages/LoginRegister/Home.dart';
 
 
 
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         initialRoute: "/",
         routes: {
           '/sign_up' : (contex) => SignupForm(),
+          '/home' : (contex) => MyHomePage(),
           '/login' : (contex) => LoginForm(),
           '/get_started' : (contex) => Get_started(),
           '/' : (contex) => Logo(),

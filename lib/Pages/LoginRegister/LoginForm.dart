@@ -142,7 +142,7 @@ class _LoginFormState extends State<LoginForm> {
                                   color: Pink_Tua,
                                   fontWeight: FontWeight.bold),
                               recognizer: TapGestureRecognizer()
-                                ..onTap = (){Navigator.of(context).pushNamed("/sign_up");}
+                                ..onTap = (){Navigator.of(context).pushNamed("/home");}
                           ),
                         ]
                     ),
