@@ -1,17 +1,12 @@
-# tubes_provis
+# Tugas besar mata kuliah Pemograman Visual dan Piranti Bergerak
 
-A new Flutter project.
+30 Days Better Hair Challenge App
 
-## Getting Started
+## Anggota Kelompok
 
-This project is a starting point for a Flutter application.
+Ayurika Sinambela 2003717
+Hakasa Putri 2007698
+Listia Ningrum 2008084
+Meutia Jasmine 2000188
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# provis_salon" 
