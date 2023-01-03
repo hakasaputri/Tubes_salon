@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:ui';
 // import 'package:google_fonts/google_fonts.dart';
 // import 'package:myapp/utils.dart';
@@ -66,7 +67,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Color(0xffffb0b0),
-          title: Text('Hi, Jessica Pauline'),
+          // title: Text('Hi, Jessica Pauline'),
         ),
         body: Container(
           child: Column(

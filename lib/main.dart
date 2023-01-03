@@ -6,6 +6,7 @@ import 'package:tubes_provis/Pages/LoginRegister/Logo.dart';
 import 'package:tubes_provis/Pages/Help/HelpForm.dart';
 import 'package:tubes_provis/utils.dart';
 import 'package:tubes_provis/Pages/LoginRegister/Get_started.dart';
+import 'package:tubes_provis/Pages/LoginRegister/DetailTreatment.dart';
 import 'package:tubes_provis/Pages/LoginRegister/Home.dart';
 import 'package:tubes_provis/Pages/Notification/Notif.dart';
 import 'package:tubes_provis/Pages/About/About.dart';
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         '/help': (contex) => HelpForm(),
         '/notif': (contex) => Notif(),
         '/about': (contex) => About(),
+        '/detail': (contex) => DetailTreatmentPage(),
       },
     );
   }

@@ -114,39 +114,39 @@ class About extends StatelessWidget {
                 width: 609*fem,
                 height: 204*fem,
                 child: Stack(
-                  children: [
-                    Positioned(
-                      // line1jsh (107:321)
-                      left: 0*fem,
-                      top: 9*fem,
-                      child: Align(
-                        child: SizedBox(
-                          width: 249*fem,
-                          height: 1*fem,
-                          child: Container(
-                            decoration: BoxDecoration (
-                              color: Color(0x66000000),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      // line2E3m (107:320)
-                      left: 236*fem,
-                      top: 9*fem,
-                      child: Align(
-                        child: SizedBox(
-                          width: 249*fem,
-                          height: 1*fem,
-                          child: Container(
-                            decoration: BoxDecoration (
-                              color: Color(0x66000000),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
+                 children: [
+                  //   Positioned(
+                  //     // line1jsh (107:321)
+                  //     left: 0*fem,
+                  //     top: 9*fem,
+                  //     child: Align(
+                  //       child: SizedBox(
+                  //         width: 249*fem,
+                  //         height: 1*fem,
+                  //         child: Container(
+                  //           decoration: BoxDecoration (
+                  //             color: Color(0x66000000),
+                  //           ),
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ),
+                  //   Positioned(
+                  //     // line2E3m (107:320)
+                  //     left: 236*fem,
+                  //     top: 9*fem,
+                  //     child: Align(
+                  //       child: SizedBox(
+                  //         width: 249*fem,
+                  //         height: 1*fem,
+                  //         child: Container(
+                  //           decoration: BoxDecoration (
+                  //             color: Color(0x66000000),
+                  //           ),
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ),
                     Positioned(
                       // aboutuswym (107:390)
                       left: 23*fem,
@@ -613,22 +613,22 @@ class About extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Positioned(
-                      // iconbackFVD (151:21)
-                      left: 166*fem,
-                      top: 689.3538818359*fem,
-                      child: Align(
-                        child: SizedBox(
-                          width: 25*fem,
-                          height: 25*fem,
-                          child: Image.asset(
-                            'assets/images/icon-back-whD.png',
-                            width: 25*fem,
-                            height: 25*fem,
-                          ),
-                        ),
-                      ),
-                    ),
+                    // Positioned(
+                    //   // iconbackFVD (151:21)
+                    //   left: 166*fem,
+                    //   top: 689.3538818359*fem,
+                    //   child: Align(
+                    //     child: SizedBox(
+                    //       width: 25*fem,
+                    //       height: 25*fem,
+                    //       child: Image.asset(
+                    //         'assets/images/icon-back-whD.png',
+                    //         width: 25*fem,
+                    //         height: 25*fem,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               ),
