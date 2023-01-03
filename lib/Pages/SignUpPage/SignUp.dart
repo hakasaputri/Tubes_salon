@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tubes_provis/utils.dart';
 import 'package:flutter/gestures.dart';
 
-
 class SignUpPage extends StatelessWidget{
   @override
   Widget build(BuildContext context){

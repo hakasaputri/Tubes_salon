@@ -60,47 +60,90 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
-# The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/
-#    - images/a_dot_ham.jpeg
+    - assets/images/image-3.png
+    - assets/images/celestia-9-1.png
+    - assets/images/celestia-9-1-QFV.png
+    - assets/images/kathlyn-image.png
+    - assets/images/image-2.png
+    - assets/images/image-5.png
+    - assets/images/icon-phone.png
+    - assets/images/icon-youtube.png
+    - assets/images/icon-arrow-ios-back.png
+    - assets/images/background-bg.png
+    - assets/images/image-7.png
+    - assets/images/celestia-9-1-HGX.png
+    - assets/images/profile-image.png
+    - assets/images/pinterest-1.png
+    - assets/images/mail.png
+    - assets/images/celestia-9-1-A6F.png
+    - assets/images/pinterest-1-NDZ.png
+    - assets/images/image-6.png
+    - assets/images/image-2-eqh.png
+    - assets/images/instagram-1.png
+    - assets/images/icon-person.png
+    - assets/images/mail-tdH.png
+    - assets/images/component-1.png
+    - assets/images/icon-back.png
+    - assets/images/icon-phone-PLw.png
+    - assets/images/icon-eye-off-outline.png
+    - assets/images/straight-dry-natural-black-hair.png
+    - assets/images/eva-image.png
+    - assets/images/facebook-1.png
+    - assets/images/icon-edit.png
+    - assets/images/icon-person-t4K.png
+    - assets/images/icon-person-xdq.png
+    - assets/images/rectangle-7.png
+    - assets/images/icon-gmail.png
+    - assets/images/icon-back-m1M.png
+    - assets/images/celestia-9-1-FrB.png
+    - assets/images/auto-group-qv3h.png
+    - assets/images/vector.png
+    - assets/images/icon-twitter.png
+    - assets/images/linkedin-1.png
+    - assets/images/icon-smartphone-outline.png
+    - assets/images/icon-web.png
+    - assets/images/lock.png
+    - assets/images/image-1.png
+    - assets/images/linkedin-1-Qrw.png
+    - assets/images/lock-59m.png
+    - assets/images/saloon-image.png
+    - assets/images/icon-home.png
+    - assets/images/mail-WHy.png
+    - assets/images/icon-arrow-ios-forward.png
+    - assets/images/profile-image-SE7.png
+    - assets/images/icon-home-x59.png
+    - assets/images/icon-home-outline.png
+    - assets/images/icon-eye-off-outline-yrb.png
+    - assets/images/icon-back-whD.png
+    - assets/images/lock-Da3.png
+    - assets/images/icon-instagram.png
+    - assets/images/icon-person-aUT.png
+    - assets/images/icon-eye-off-outline-7UP.png
+    - assets/images/icon-back-GfM.png
+    - assets/images/lock-h6s.png
+    - assets/images/alicia-image.png
+    - assets/images/auto-group-vdbz.png
+    - assets/images/icon-person-outline.png
+    - assets/images/instagram-1-Gm9.png
+    - assets/images/vector-VYf.png
+    - assets/images/icon-facebook.png
+    - assets/images/line.png
+    - assets/images/facebook-1-Hnj.png
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
-
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
   fonts:
     - family: Poppins
       fonts:
         - asset: assets/fonts/poppins/Poppins-Medium.ttf
-
     - family: PoppinsRegular
       fonts:
         - asset: assets/fonts/poppins/Poppins-Regular.ttf
-
     - family: PoppinsLight
       fonts:
         - asset: assets/fonts/poppins/Poppins-Light.ttf
-
     - family: PoppinsSemiBold
       fonts:
         - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
           weight: 700
-
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages

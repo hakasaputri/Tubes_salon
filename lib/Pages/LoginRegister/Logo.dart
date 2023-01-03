@@ -18,34 +18,31 @@ class Logo extends StatefulWidget {
 }
 
 class _LoginFormState extends State{
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Hijau,
       body: 
-      
-       InkWell(
+      InkWell(
       child : Container(
           padding: EdgeInsets.fromLTRB(30.00, 250.00, 30.00, 250.00),
           width: double.infinity,
           height: 800.00,
           decoration: BoxDecoration (
             color: Color(0xff80bdab),
-          ),
-          child: Center(
-            child : Container(
-                decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage("assets/images/logo.png"),
-                  fit: BoxFit.cover,
-                ),
-        ),
+      ),
+      child: Center(
+        child : Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/images/logo.png"),
+              fit: BoxFit.cover,
             ),
-           
           ),
         ),
-         onTap: (){Navigator.of(context).pushNamed("/get_started");}
+      ),
+      ),
+      onTap: (){Navigator.of(context).pushNamed("/get_started");}
       ),
     );
   }
