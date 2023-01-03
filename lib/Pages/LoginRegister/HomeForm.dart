@@ -72,23 +72,6 @@ class _HomeFormState extends State<HomeForm> {
     }
   }
 
-  // delete() async {
-  //   String delUserID = _conDelUserId.text;
-  //
-  //   await dbHelper!.deleteUser(delUserID).then((value) {
-  //     if (value == 1) {
-  //       alertDialog(context, "Successfully Deleted");
-  //
-  //       updateSP(null, false).whenComplete(() {
-  //         Navigator.pushAndRemoveUntil(
-  //             context,
-  //             MaterialPageRoute(builder: (_) => LoginForm()),
-  //             (Route<dynamic> route) => false);
-  //       });
-  //     }
-  //   });
-  // }
-
   Future updateSP(UserModel user, bool add) async {
     final SharedPreferences sp = await _pref;
 
@@ -162,30 +145,12 @@ class _HomeFormState extends State<HomeForm> {
                     ),
                   ),
 
-                  //Delete
-
                   getTextFormField(
                       controller: _conDelUserId,
                       isEnable: false,
                       icon: Icons.person,
                       hintName: 'User ID'),
                   SizedBox(height: 10.0),
-                  SizedBox(height: 10.0),
-                  // Container(
-                  //   margin: EdgeInsets.all(30.0),
-                  //   width: double.infinity,
-                  //   child: ElevatedButton(
-                  //     child: Text(
-                  //       'Delete',
-                  //       style: TextStyle(color: Colors.white),
-                  //     ),
-                  //     onPressed: delete,
-                  //   ),
-                  //   decoration: BoxDecoration(
-                  //     color: Colors.blue,
-                  //     borderRadius: BorderRadius.circular(30.0),
-                  //   ),
-                  // ),
                 ],
               ),
             ),

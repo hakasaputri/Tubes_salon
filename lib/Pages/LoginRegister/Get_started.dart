@@ -85,7 +85,7 @@ class _LoginFormState extends State{
                     ),
                   ),
             ),
-             onTap: (){Navigator.of(context).pushNamed("/login");}
+            onTap: (){Navigator.of(context).pushNamed("/login");}
           ),
           ],
         ),
