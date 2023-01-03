@@ -17,17 +17,18 @@ import 'package:tubes_provis/Database/Model/UserModel.dart';
 import 'package:tubes_provis/Pages/LoginRegister/DetailTreatment.dart';
 import 'package:tubes_provis/Pages/LoginRegister/SignupForm.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:tubes_provis/Pages/Notification/Notif.dart';
 import 'package:tubes_provis/utils.dart';
 import 'package:flutter/gestures.dart';
 
 import 'HomeForm.dart';
 
-class MyHomePage extends StatefulWidget {
+class Home extends StatefulWidget {
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _HomeState createState() => _HomeState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _HomeState extends State<Home> {
   DateTime _currentDate = DateTime.now();
   String _currentMonth = DateFormat.yMMM().format(DateTime.now());
   late Event? _selectedEvent;
@@ -151,6 +152,23 @@ class _MyHomePageState extends State<MyHomePage> {
               label: ('Profile'),
             ),
           ],
+          onTap: (int index) {
+            if (index == 0) {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Home(),
+                ),
+              );
+            } else if (index == 1) {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Notif(),
+                ),
+              );
+            }
+          },
         ));
   }
 }
