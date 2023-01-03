@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:google_fonts/google_fonts.dart';
 import 'package:tubes_provis/utils.dart';
 
 class About extends StatelessWidget {
@@ -163,14 +163,14 @@ class About extends StatelessWidget {
                               child: Text(
                                 'About Us',
                                 textAlign: TextAlign.center,
-                                style: SafeGoogleFont (
-                                  'Montserrat',
-                                  fontSize: 15*ffem,
-                                  fontWeight: FontWeight.w500,
-                                  height: 1.2175*ffem/fem,
-                                  letterSpacing: 0.525*fem,
-                                  color: Color(0xff000000),
-                                ),
+                                // style: SafeGoogleFont (
+                                //   'Montserrat',
+                                //   fontSize: 15*ffem,
+                                //   fontWeight: FontWeight.w500,
+                                //   height: 1.2175*ffem/fem,
+                                //   letterSpacing: 0.525*fem,
+                                //   color: Color(0xff000000),
+                                // ),
                               ),
                             ),
                             Container(
@@ -180,14 +180,14 @@ class About extends StatelessWidget {
                               ),
                               child: Text(
                                 '     Lorem ipsum dolor sit amet consectetur. Urna nulla donec in mi nisi nunc lorem ultricies. Condimentum vitae habitant molestie at. Morbi arcu semper varius consectetur a duis condimentum feugiat arcu. Nec quis nunc ut cras morbi. \n     Praesent egestas senectus malesuada viverra sem ultrices. Nisl amet nam vel urna mollis rutrum lectus viverra eleifend. Eu donec interdum accumsan mollis purus ornare donec. Magna sem in penatibus augue. Sollicitudin ipsum id risus semper tristique sed dictum. ',
-                                style: SafeGoogleFont (
-                                  'Lato',
-                                  fontSize: 10*ffem,
-                                  fontWeight: FontWeight.w400,
-                                  height: 2*ffem/fem,
-                                  letterSpacing: 0.35*fem,
-                                  color: Color(0xff000000),
-                                ),
+                                // style: SafeGoogleFont (
+                                //   'Lato',
+                                //   fontSize: 10*ffem,
+                                //   fontWeight: FontWeight.w400,
+                                //   height: 2*ffem/fem,
+                                //   letterSpacing: 0.35*fem,
+                                //   color: Color(0xff000000),
+                                // ),
                               ),
                             ),
                           ],
@@ -242,14 +242,14 @@ class About extends StatelessWidget {
                               child: Text(
                                 'Our Team',
                                 textAlign: TextAlign.center,
-                                style: SafeGoogleFont (
-                                  'Montserrat',
-                                  fontSize: 15*ffem,
-                                  fontWeight: FontWeight.w500,
-                                  height: 1.2175*ffem/fem,
-                                  letterSpacing: 0.525*fem,
-                                  color: Color(0xffffb0b0),
-                                ),
+                                // style: SafeGoogleFont (
+                                //   'Montserrat',
+                                //   fontSize: 15*ffem,
+                                //   fontWeight: FontWeight.w500,
+                                //   height: 1.2175*ffem/fem,
+                                //   letterSpacing: 0.525*fem,
+                                //   color: Color(0xffffb0b0),
+                                // ),
                               ),
                             ),
                             Container(
@@ -317,14 +317,14 @@ class About extends StatelessWidget {
                                     child: Text(
                                       'Eva Lillian',
                                       textAlign: TextAlign.center,
-                                      style: SafeGoogleFont (
-                                        'Lato',
-                                        fontSize: 10*ffem,
-                                        fontWeight: FontWeight.w400,
-                                        height: 1.2*ffem/fem,
-                                        letterSpacing: 0.35*fem,
-                                        color: Color(0xffffb0b0),
-                                      ),
+                                      // style: SafeGoogleFont (
+                                      //   'Lato',
+                                      //   fontSize: 10*ffem,
+                                      //   fontWeight: FontWeight.w400,
+                                      //   height: 1.2*ffem/fem,
+                                      //   letterSpacing: 0.35*fem,
+                                      //   color: Color(0xffffb0b0),
+                                      // ),
                                     ),
                                   ),
                                   Container(
@@ -333,28 +333,28 @@ class About extends StatelessWidget {
                                     child: Text(
                                       'Kathlyn Matrona',
                                       textAlign: TextAlign.center,
-                                      style: SafeGoogleFont (
-                                        'Lato',
-                                        fontSize: 10*ffem,
-                                        fontWeight: FontWeight.w400,
-                                        height: 1.2*ffem/fem,
-                                        letterSpacing: 0.35*fem,
-                                        color: Color(0xffffb0b0),
-                                      ),
+                                      // style: SafeGoogleFont (
+                                      //   'Lato',
+                                      //   fontSize: 10*ffem,
+                                      //   fontWeight: FontWeight.w400,
+                                      //   height: 1.2*ffem/fem,
+                                      //   letterSpacing: 0.35*fem,
+                                      //   color: Color(0xffffb0b0),
+                                      // ),
                                     ),
                                   ),
                                   Text(
                                     // aliciakyleeqoZ (107:376)
                                     'Alicia Kylee',
                                     textAlign: TextAlign.center,
-                                    style: SafeGoogleFont (
-                                      'Lato',
-                                      fontSize: 10*ffem,
-                                      fontWeight: FontWeight.w400,
-                                      height: 1.2*ffem/fem,
-                                      letterSpacing: 0.35*fem,
-                                      color: Color(0xffffb0b0),
-                                    ),
+                                    // style: SafeGoogleFont (
+                                    //   'Lato',
+                                    //   fontSize: 10*ffem,
+                                    //   fontWeight: FontWeight.w400,
+                                    //   height: 1.2*ffem/fem,
+                                    //   letterSpacing: 0.35*fem,
+                                    //   color: Color(0xffffb0b0),
+                                    // ),
                                   ),
                                 ],
                               ),
@@ -405,14 +405,14 @@ class About extends StatelessWidget {
                                     child: Text(
                                       'FOLLOW US IN OUR SOCIAL NETWORK',
                                       textAlign: TextAlign.center,
-                                      style: SafeGoogleFont (
-                                        'Lato',
-                                        fontSize: 15*ffem,
-                                        fontWeight: FontWeight.w800,
-                                        height: 1.2*ffem/fem,
-                                        letterSpacing: 0.525*fem,
-                                        color: Color(0xffffb0b0),
-                                      ),
+                                      // style: SafeGoogleFont (
+                                      //   'Lato',
+                                      //   fontSize: 15*ffem,
+                                      //   fontWeight: FontWeight.w800,
+                                      //   height: 1.2*ffem/fem,
+                                      //   letterSpacing: 0.525*fem,
+                                      //   color: Color(0xffffb0b0),
+                                      // ),
                                     ),
                                   ),
                                   Container(
@@ -439,14 +439,14 @@ class About extends StatelessWidget {
                                           child: Text(
                                             '@celestia.official',
                                             textAlign: TextAlign.center,
-                                            style: SafeGoogleFont (
-                                              'Lato',
-                                              fontSize: 12*ffem,
-                                              fontWeight: FontWeight.w400,
-                                              height: 1.2*ffem/fem,
-                                              letterSpacing: 0.42*fem,
-                                              color: Color(0xffffb0b0),
-                                            ),
+                                            // style: SafeGoogleFont (
+                                            //   'Lato',
+                                            //   fontSize: 12*ffem,
+                                            //   fontWeight: FontWeight.w400,
+                                            //   height: 1.2*ffem/fem,
+                                            //   letterSpacing: 0.42*fem,
+                                            //   color: Color(0xffffb0b0),
+                                            // ),
                                           ),
                                         ),
                                         Container(
@@ -455,14 +455,14 @@ class About extends StatelessWidget {
                                           child: Text(
                                             'Celestia Official',
                                             textAlign: TextAlign.center,
-                                            style: SafeGoogleFont (
-                                              'Lato',
-                                              fontSize: 12*ffem,
-                                              fontWeight: FontWeight.w400,
-                                              height: 1.2*ffem/fem,
-                                              letterSpacing: 0.42*fem,
-                                              color: Color(0xffffb0b0),
-                                            ),
+                                            // style: SafeGoogleFont (
+                                            //   'Lato',
+                                            //   fontSize: 12*ffem,
+                                            //   fontWeight: FontWeight.w400,
+                                            //   height: 1.2*ffem/fem,
+                                            //   letterSpacing: 0.42*fem,
+                                            //   color: Color(0xffffb0b0),
+                                            // ),
                                           ),
                                         ),
                                         Container(
@@ -506,14 +506,14 @@ class About extends StatelessWidget {
                                     child: Text(
                                       'Celestia Official',
                                       textAlign: TextAlign.center,
-                                      style: SafeGoogleFont (
-                                        'Lato',
-                                        fontSize: 12*ffem,
-                                        fontWeight: FontWeight.w400,
-                                        height: 1.2*ffem/fem,
-                                        letterSpacing: 0.42*fem,
-                                        color: Color(0xffffb0b0),
-                                      ),
+                                      // style: SafeGoogleFont (
+                                      //   'Lato',
+                                      //   fontSize: 12*ffem,
+                                      //   fontWeight: FontWeight.w400,
+                                      //   height: 1.2*ffem/fem,
+                                      //   letterSpacing: 0.42*fem,
+                                      //   color: Color(0xffffb0b0),
+                                      // ),
                                     ),
                                   ),
                                   Container(
@@ -522,14 +522,14 @@ class About extends StatelessWidget {
                                     child: Text(
                                       '@celestia.official',
                                       textAlign: TextAlign.center,
-                                      style: SafeGoogleFont (
-                                        'Lato',
-                                        fontSize: 12*ffem,
-                                        fontWeight: FontWeight.w400,
-                                        height: 1.2*ffem/fem,
-                                        letterSpacing: 0.42*fem,
-                                        color: Color(0xffffb0b0),
-                                      ),
+                                      // style: SafeGoogleFont (
+                                      //   'Lato',
+                                      //   fontSize: 12*ffem,
+                                      //   fontWeight: FontWeight.w400,
+                                      //   height: 1.2*ffem/fem,
+                                      //   letterSpacing: 0.42*fem,
+                                      //   color: Color(0xffffb0b0),
+                                      // ),
                                     ),
                                   ),
                                   Container(
@@ -569,14 +569,14 @@ class About extends StatelessWidget {
                                     child: Text(
                                       'www. celestia.com',
                                       textAlign: TextAlign.center,
-                                      style: SafeGoogleFont (
-                                        'Lato',
-                                        fontSize: 12*ffem,
-                                        fontWeight: FontWeight.w400,
-                                        height: 1.2*ffem/fem,
-                                        letterSpacing: 0.42*fem,
-                                        color: Color(0xffffb0b0),
-                                      ),
+                                      // style: SafeGoogleFont (
+                                      //   'Lato',
+                                      //   fontSize: 12*ffem,
+                                      //   fontWeight: FontWeight.w400,
+                                      //   height: 1.2*ffem/fem,
+                                      //   letterSpacing: 0.42*fem,
+                                      //   color: Color(0xffffb0b0),
+                                      // ),
                                     ),
                                   ),
                                   Container(
@@ -585,14 +585,14 @@ class About extends StatelessWidget {
                                     child: Text(
                                       'celestia@gmail.com',
                                       textAlign: TextAlign.center,
-                                      style: SafeGoogleFont (
-                                        'Lato',
-                                        fontSize: 12*ffem,
-                                        fontWeight: FontWeight.w400,
-                                        height: 1.2*ffem/fem,
-                                        letterSpacing: 0.42*fem,
-                                        color: Color(0xffffb0b0),
-                                      ),
+                                      // style: SafeGoogleFont (
+                                      //   'Lato',
+                                      //   fontSize: 12*ffem,
+                                      //   fontWeight: FontWeight.w400,
+                                      //   height: 1.2*ffem/fem,
+                                      //   letterSpacing: 0.42*fem,
+                                      //   color: Color(0xffffb0b0),
+                                      // ),
                                     ),
                                   ),
                                   Container(

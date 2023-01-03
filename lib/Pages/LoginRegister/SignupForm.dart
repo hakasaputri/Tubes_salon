@@ -38,7 +38,7 @@ class _SignupFormState extends State<SignupForm> {
 
     if (_formKey.currentState!.validate()) {
       if (passwd != cpasswd) {
-        alertDialog(context, 'Password Mismatch');
+        alertDialog(context, 'Password Tidak Sama');
       } else {
         _formKey.currentState!.save();
 
@@ -66,7 +66,7 @@ class _SignupFormState extends State<SignupForm> {
         backgroundColor: Hijau,
         leading: IconButton(
           onPressed: () {
-            Navigator.pop(context);
+            Navigator.of(context).pushNamed("/get_started");
           },
           icon: Icon(Icons.arrow_back,
             size: 20,
@@ -87,7 +87,7 @@ class _SignupFormState extends State<SignupForm> {
                       controller: _conUserId,
                       icon: Icons.person_outline,
                       inputType: TextInputType.name,
-                      hintName: 'Username'),
+                      hintName: 'User ID'),
                   SizedBox(height: 15.0),
                   getTextFormField(
                       controller: _conUserName,

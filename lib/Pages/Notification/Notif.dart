@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:google_fonts/google_fonts.dart';
 import 'package:tubes_provis/utils.dart';
 
 class Notif extends StatelessWidget {
@@ -101,14 +101,14 @@ class Notif extends StatelessWidget {
               child: Center(
                 child: Text(
                   'Notifications',
-                  style: SafeGoogleFont (
-                    'Montserrat',
-                    fontSize: 15*ffem,
-                    fontWeight: FontWeight.w800,
-                    height: 1.2175*ffem/fem,
-                    letterSpacing: 0.525*fem,
-                    color: Color(0xffffffff),
-                  ),
+                  // style: SafeGoogleFont (
+                  //   'Montserrat',
+                  //   fontSize: 15*ffem,
+                  //   fontWeight: FontWeight.w800,
+                  //   height: 1.2175*ffem/fem,
+                  //   letterSpacing: 0.525*fem,
+                  //   color: Color(0xffffffff),
+                  // ),
                 ),
               ),
             ),
@@ -153,14 +153,14 @@ class Notif extends StatelessWidget {
                           child: Text(
                             'Healthy Hair on Monday',
                             textAlign: TextAlign.center,
-                            style: SafeGoogleFont (
-                              'Lato',
-                              fontSize: 12*ffem,
-                              fontWeight: FontWeight.w700,
-                              height: 1.2*ffem/fem,
-                              letterSpacing: 0.42*fem,
-                              color: Color(0xff000000),
-                            ),
+                            // style: SafeGoogleFont (
+                            //   'Lato',
+                            //   fontSize: 12*ffem,
+                            //   fontWeight: FontWeight.w700,
+                            //   height: 1.2*ffem/fem,
+                            //   letterSpacing: 0.42*fem,
+                            //   color: Color(0xff000000),
+                            // ),
                           ),
                         ),
                         Container(
@@ -171,14 +171,14 @@ class Notif extends StatelessWidget {
                           ),
                           child: Text(
                             'Lorem ipsum dolor sit amet consectetur. Urna nulla donec in mi nisi nunc lorem ultricies. Condimentum vitae habitant molestie at. Lorem ipsum dolor sit amet consectetur. Urna nulla donec in mi nisi nunc lorem ultricies. Condimentum vitae habitant molestie at. ',
-                            style: SafeGoogleFont (
-                              'Lato',
-                              fontSize: 10*ffem,
-                              fontWeight: FontWeight.w400,
-                              height: 1.5*ffem/fem,
-                              letterSpacing: 0.35*fem,
-                              color: Color(0xff000000),
-                            ),
+                            // style: SafeGoogleFont (
+                            //   'Lato',
+                            //   fontSize: 10*ffem,
+                            //   fontWeight: FontWeight.w400,
+                            //   height: 1.5*ffem/fem,
+                            //   letterSpacing: 0.35*fem,
+                            //   color: Color(0xff000000),
+                            // ),
                           ),
                         ),
                         Container(
@@ -186,14 +186,14 @@ class Notif extends StatelessWidget {
                           margin: EdgeInsets.fromLTRB(179*fem, 0*fem, 0*fem, 0*fem),
                           child: Text(
                             'Monday, 19th December 2022',
-                            style: SafeGoogleFont (
-                              'Lato',
-                              fontSize: 10*ffem,
-                              fontWeight: FontWeight.w600,
-                              height: 1.5*ffem/fem,
-                              letterSpacing: 0.35*fem,
-                              color: Color(0xff000000),
-                            ),
+                            // style: SafeGoogleFont (
+                            //   'Lato',
+                            //   fontSize: 10*ffem,
+                            //   fontWeight: FontWeight.w600,
+                            //   height: 1.5*ffem/fem,
+                            //   letterSpacing: 0.35*fem,
+                            //   color: Color(0xff000000),
+                            // ),
                           ),
                         ),
                       ],
@@ -232,14 +232,14 @@ class Notif extends StatelessWidget {
                           child: Text(
                             'Welcome Jessica Pauline.',
                             textAlign: TextAlign.center,
-                            style: SafeGoogleFont (
-                              'Lato',
-                              fontSize: 12*ffem,
-                              fontWeight: FontWeight.w700,
-                              height: 1.2*ffem/fem,
-                              letterSpacing: 0.42*fem,
-                              color: Color(0xff000000),
-                            ),
+                            // style: SafeGoogleFont (
+                            //   'Lato',
+                            //   fontSize: 12*ffem,
+                            //   fontWeight: FontWeight.w700,
+                            //   height: 1.2*ffem/fem,
+                            //   letterSpacing: 0.42*fem,
+                            //   color: Color(0xff000000),
+                            // ),
                           ),
                         ),
                         Container(
@@ -250,14 +250,14 @@ class Notif extends StatelessWidget {
                           ),
                           child: Text(
                             'Lorem ipsum dolor sit amet consectetur. Urna nulla donec in mi nisi nunc lorem ultricies. Condimentum vitae habitant molestie at. Lorem ipsum dolor sit amet consectetur. Urna nulla donec in mi nisi nunc lorem ultricies. Condimentum vitae habitant molestie at. ',
-                            style: SafeGoogleFont (
-                              'Lato',
-                              fontSize: 10*ffem,
-                              fontWeight: FontWeight.w400,
-                              height: 1.5*ffem/fem,
-                              letterSpacing: 0.35*fem,
-                              color: Color(0xff000000),
-                            ),
+                            // style: SafeGoogleFont (
+                            //   'Lato',
+                            //   fontSize: 10*ffem,
+                            //   fontWeight: FontWeight.w400,
+                            //   height: 1.5*ffem/fem,
+                            //   letterSpacing: 0.35*fem,
+                            //   color: Color(0xff000000),
+                            // ),
                           ),
                         ),
                         Container(
@@ -265,14 +265,14 @@ class Notif extends StatelessWidget {
                           margin: EdgeInsets.fromLTRB(183*fem, 0*fem, 0*fem, 0*fem),
                           child: Text(
                             'Sunday, 18th December 2022',
-                            style: SafeGoogleFont (
-                              'Lato',
-                              fontSize: 10*ffem,
-                              fontWeight: FontWeight.w600,
-                              height: 1.5*ffem/fem,
-                              letterSpacing: 0.35*fem,
-                              color: Color(0xff000000),
-                            ),
+                            // style: SafeGoogleFont (
+                            //   'Lato',
+                            //   fontSize: 10*ffem,
+                            //   fontWeight: FontWeight.w600,
+                            //   height: 1.5*ffem/fem,
+                            //   letterSpacing: 0.35*fem,
+                            //   color: Color(0xff000000),
+                            // ),
                           ),
                         ),
                       ],
@@ -343,14 +343,14 @@ class Notif extends StatelessWidget {
                                   height: 17*fem,
                                   child: Text(
                                     'Home',
-                                    style: SafeGoogleFont (
-                                      'Alata',
-                                      fontSize: 12*ffem,
-                                      fontWeight: FontWeight.w400,
-                                      height: 1.38*ffem/fem,
-                                      letterSpacing: 0.42*fem,
-                                      color: Color(0xffffffff),
-                                    ),
+                                    // style: SafeGoogleFont (
+                                    //   'Alata',
+                                    //   fontSize: 12*ffem,
+                                    //   fontWeight: FontWeight.w400,
+                                    //   height: 1.38*ffem/fem,
+                                    //   letterSpacing: 0.42*fem,
+                                    //   color: Color(0xffffffff),
+                                    // ),
                                   ),
                                 ),
                               ),
@@ -386,14 +386,14 @@ class Notif extends StatelessWidget {
                         height: 17*fem,
                         child: Text(
                           'Notifications',
-                          style: SafeGoogleFont (
-                            'Alata',
-                            fontSize: 12*ffem,
-                            fontWeight: FontWeight.w400,
-                            height: 1.38*ffem/fem,
-                            letterSpacing: 0.42*fem,
-                            color: Color(0xffffb0b0),
-                          ),
+                          // style: SafeGoogleFont (
+                          //   'Alata',
+                          //   fontSize: 12*ffem,
+                          //   fontWeight: FontWeight.w400,
+                          //   height: 1.38*ffem/fem,
+                          //   letterSpacing: 0.42*fem,
+                          //   color: Color(0xffffb0b0),
+                          // ),
                         ),
                       ),
                     ),
@@ -438,14 +438,14 @@ class Notif extends StatelessWidget {
                                   height: 17*fem,
                                   child: Text(
                                     'Profile',
-                                    style: SafeGoogleFont (
-                                      'Alata',
-                                      fontSize: 12*ffem,
-                                      fontWeight: FontWeight.w400,
-                                      height: 1.38*ffem/fem,
-                                      letterSpacing: 0.42*fem,
-                                      color: Color(0xffffffff),
-                                    ),
+                                    // style: SafeGoogleFont (
+                                    //   'Alata',
+                                    //   fontSize: 12*ffem,
+                                    //   fontWeight: FontWeight.w400,
+                                    //   height: 1.38*ffem/fem,
+                                    //   letterSpacing: 0.42*fem,
+                                    //   color: Color(0xffffffff),
+                                    // ),
                                   ),
                                 ),
                               ),
