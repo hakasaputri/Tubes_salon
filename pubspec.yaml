@@ -132,6 +132,8 @@ flutter:
     - assets/images/icon-facebook.png
     - assets/images/line.png
     - assets/images/facebook-1-Hnj.png
+    - assets/images/logo.png
+    - assets/images/background.png
 
   fonts:
     - family: Poppins

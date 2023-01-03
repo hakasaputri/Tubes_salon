@@ -31,7 +31,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/sign_up': (contex) => SignupForm(),
         '/home': (contex) => Home(),
-        '/login': (contex) => LoginForm(),
+        '/login': (contex) => Home(),
+        '/sign_in': (contex) => LoginForm(),
         '/get_started': (contex) => Get_started(),
         '/': (contex) => Logo(),
         '/help': (contex) => HelpForm(),
