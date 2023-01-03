@@ -269,8 +269,8 @@ class About extends StatelessWidget {
                                 children: [
                                   Container(
                                     // evaimageBSB (107:371)
-                                    width: 70*fem,
-                                    height: 70*fem,
+                                    width: 60*fem,
+                                    height: 60*fem,
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(50*fem),
                                       child: Image.asset(
@@ -284,8 +284,8 @@ class About extends StatelessWidget {
                                   ),
                                   Container(
                                     // kathlynimage63M (107:372)
-                                    width: 70*fem,
-                                    height: 70*fem,
+                                    width: 60*fem,
+                                    height: 60*fem,
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(50*fem),
                                       child: Image.asset(
@@ -299,8 +299,8 @@ class About extends StatelessWidget {
                                   ),
                                   Container(
                                     // aliciaimage1AK (107:373)
-                                    width: 70*fem,
-                                    height: 70*fem,
+                                    width: 60*fem,
+                                    height: 60*fem,
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(50*fem),
                                       child: Image.asset(
@@ -326,7 +326,7 @@ class About extends StatelessWidget {
                                       'Eva Lillian',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
-                                        fontSize: 10*ffem,
+                                        fontSize: 7*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.2*ffem/fem,
                                         letterSpacing: 0.35*fem,
@@ -349,7 +349,7 @@ class About extends StatelessWidget {
                                       'Kathlyn Matrona',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
-                                        fontSize: 10*ffem,
+                                        fontSize: 7*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.2*ffem/fem,
                                         letterSpacing: 0.35*fem,
@@ -370,7 +370,7 @@ class About extends StatelessWidget {
                                     'Alicia Kylee',
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
-                                        fontSize: 10*ffem,
+                                        fontSize: 7*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.2*ffem/fem,
                                         letterSpacing: 0.35*fem,
@@ -435,7 +435,7 @@ class About extends StatelessWidget {
                                       'FOLLOW US IN OUR SOCIAL NETWORK',
                                       textAlign: TextAlign.center,
                                       style : TextStyle(
-                                        fontSize: 15*ffem,
+                                        fontSize: 13*ffem,
                                         fontWeight: FontWeight.w800,
                                         height: 1.2*ffem/fem,
                                         letterSpacing: 0.525*fem,
@@ -461,12 +461,12 @@ class About extends StatelessWidget {
                                         Container(
                                           // iconinstagramuqM (113:407)
                                           margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 8*fem, 0*fem),
-                                          width: 21*fem,
-                                          height: 21*fem,
+                                          width: 19*fem,
+                                          height: 19*fem,
                                           child: Image.asset(
                                             'assets/images/icon-instagram.png',
-                                            width: 21*fem,
-                                            height: 21*fem,
+                                            width: 19*fem,
+                                            height: 19*fem,
                                           ),
                                         ),
                                         Container(
@@ -476,7 +476,7 @@ class About extends StatelessWidget {
                                             '@celestia.official',
                                             textAlign: TextAlign.center,
                                             style : TextStyle(
-                                              fontSize: 12*ffem,
+                                              fontSize: 9*ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2*ffem/fem,
                                               letterSpacing: 0.42*fem,
@@ -499,7 +499,7 @@ class About extends StatelessWidget {
                                             'Celestia Official',
                                             textAlign: TextAlign.center,
                                             style : TextStyle(
-                                              fontSize: 12*ffem,
+                                              fontSize: 9*ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2*ffem/fem,
                                               letterSpacing: 0.42*fem,
@@ -518,12 +518,12 @@ class About extends StatelessWidget {
                                         Container(
                                           // iconfacebookoJT (113:416)
                                           margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 0.05*fem),
-                                          width: 20.83*fem,
-                                          height: 20.78*fem,
+                                          width: 18.83*fem,
+                                          height: 18.78*fem,
                                           child: Image.asset(
                                             'assets/images/icon-facebook.png',
-                                            width: 20.83*fem,
-                                            height: 20.78*fem,
+                                            width: 18.83*fem,
+                                            height: 18.78*fem,
                                           ),
                                         ),
                                       ],
@@ -542,12 +542,12 @@ class About extends StatelessWidget {
                                   Container(
                                     // iconyoutubeSMR (113:414)
                                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 7.56*fem, 0.25*fem),
-                                    width: 21.88*fem,
-                                    height: 17.11*fem,
+                                    width: 19.88*fem,
+                                    height: 15.11*fem,
                                     child: Image.asset(
                                       'assets/images/icon-youtube.png',
-                                      width: 21.88*fem,
-                                      height: 17.11*fem,
+                                      width: 19.88*fem,
+                                      height: 15.11*fem,
                                     ),
                                   ),
                                   Container(
@@ -557,7 +557,7 @@ class About extends StatelessWidget {
                                       'Celestia Official',
                                       textAlign: TextAlign.center,
                                       style : TextStyle(
-                                        fontSize: 12*ffem,
+                                        fontSize: 9*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.2*ffem/fem,
                                         letterSpacing: 0.42*fem,
@@ -580,7 +580,7 @@ class About extends StatelessWidget {
                                       '@celestia.official',
                                       textAlign: TextAlign.center,
                                       style : TextStyle(
-                                              fontSize: 12*ffem,
+                                              fontSize: 9*ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2*ffem/fem,
                                               letterSpacing: 0.42*fem,
@@ -598,12 +598,12 @@ class About extends StatelessWidget {
                                   ),
                                   Container(
                                     // icontwitterxUB (113:403)
-                                    width: 22*fem,
-                                    height: 19*fem,
+                                    width: 20*fem,
+                                    height: 17*fem,
                                     child: Image.asset(
                                       'assets/images/icon-twitter.png',
-                                      width: 22*fem,
-                                      height: 19*fem,
+                                      width: 20*fem,
+                                      height: 17*fem,
                                     ),
                                   ),
                                 ],
@@ -619,12 +619,12 @@ class About extends StatelessWidget {
                                   Container(
                                     // iconwebR6s (113:405)
                                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 11.17*fem, 0*fem),
-                                    width: 20.83*fem,
-                                    height: 20.83*fem,
+                                    width: 18.83*fem,
+                                    height: 18.83*fem,
                                     child: Image.asset(
                                       'assets/images/icon-web.png',
-                                      width: 20.83*fem,
-                                      height: 20.83*fem,
+                                      width: 18.83*fem,
+                                      height: 18.83*fem,
                                     ),
                                   ),
                                   Container(
@@ -634,7 +634,7 @@ class About extends StatelessWidget {
                                       'www. celestia.com',
                                       textAlign: TextAlign.center,
                                       style : TextStyle(
-                                              fontSize: 12*ffem,
+                                              fontSize: 9*ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2*ffem/fem,
                                               letterSpacing: 0.42*fem,
@@ -657,7 +657,7 @@ class About extends StatelessWidget {
                                       'celestia@gmail.com',
                                       textAlign: TextAlign.center,
                                       style : TextStyle(
-                                              fontSize: 12*ffem,
+                                              fontSize: 9*ffem,
                                               fontWeight: FontWeight.w400,
                                               height: 1.2*ffem/fem,
                                               letterSpacing: 0.42*fem,
@@ -676,12 +676,12 @@ class About extends StatelessWidget {
                                   Container(
                                     // icongmailY51 (113:409)
                                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 0.17*fem),
-                                    width: 20.83*fem,
-                                    height: 16.67*fem,
+                                    width: 18.83*fem,
+                                    height: 14.67*fem,
                                     child: Image.asset(
                                       'assets/images/icon-gmail.png',
-                                      width: 20.83*fem,
-                                      height: 16.67*fem,
+                                      width: 18.83*fem,
+                                      height: 14.67*fem,
                                     ),
                                   ),
                                 ],
