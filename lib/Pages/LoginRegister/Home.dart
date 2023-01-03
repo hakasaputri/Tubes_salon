@@ -14,6 +14,7 @@ import 'package:tubes_provis/Database/Comm/genLoginSignupHeader.dart';
 import 'package:tubes_provis/Database/Comm/genTextFormField.dart';
 import 'package:tubes_provis/Database/DatabaseHandler/DbHelper.dart';
 import 'package:tubes_provis/Database/Model/UserModel.dart';
+import 'package:tubes_provis/Pages/LoginRegister/DetailTreatment.dart';
 import 'package:tubes_provis/Pages/LoginRegister/SignupForm.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tubes_provis/utils.dart';
@@ -112,7 +113,14 @@ class _MyHomePageState extends State<MyHomePage> {
                           trailing: FloatingActionButton(
                             backgroundColor: Color(0xff80bdab),
                             child: Icon(Icons.arrow_right),
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => DetailTreatmentPage(),
+                                ),
+                              );
+                            },
                           ),
                         ),
                       );

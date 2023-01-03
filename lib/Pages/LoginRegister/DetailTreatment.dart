@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage2 extends StatefulWidget {
+class DetailTreatmentPage extends StatefulWidget {
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _DetailTreatmentPage createState() => _DetailTreatmentPage();
 }
 
-class _MyHomePageState extends State<MyHomePage2> {
+class _DetailTreatmentPage extends State<DetailTreatmentPage> {
   List<String> sections = ['Main Treatment', 'Side Treatment', 'Styling'];
   List<List<String>> items = [
     ['Shampoo', 'Conditioner'],
@@ -28,28 +28,24 @@ class _MyHomePageState extends State<MyHomePage2> {
     return ListView.builder(
       itemCount: sections.length,
       itemBuilder: (context, index) {
-        return ExpansionTile(
-          title: Text(sections[index]),
-          children: <Widget>[
-            ListView.builder(
-              shrinkWrap: true,
-              physics: ClampingScrollPhysics(),
-              itemCount: items[index].length,
-              itemBuilder: (context, i) {
-                return CheckboxListTile(
-                  value: _isCompleted[index][i],
-                  onChanged: (bool? value) {
-                    setState(() {
-                      _isCompleted[index][i] = value as bool;
-                      });
-                    });
-                  },
-                  title: Text(items[index][i]),
-                );
-              },
-            ),
-          ],
-        );
+        return ExpansionTile(title: Text(sections[index]), children: <Widget>[
+          ListView.builder(
+            shrinkWrap: true,
+            physics: ClampingScrollPhysics(),
+            itemCount: items[index].length,
+            itemBuilder: (context, i) {
+              return CheckboxListTile(
+                value: _isCompleted[index][i],
+                onChanged: (bool? value) {
+                  setState(() {
+                    _isCompleted[index][i] = value as bool;
+                  });
+                },
+                title: Text(items[index][i]),
+              );
+            },
+          ),
+        ]);
       },
     );
   }
