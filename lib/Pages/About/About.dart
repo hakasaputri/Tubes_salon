@@ -114,7 +114,6 @@ class About extends StatelessWidget {
                 width: 609*fem,
                 height: 204*fem,
                 child: Stack(
-<<<<<<< HEAD
                  children: [
                   //   Positioned(
                   //     // line1jsh (107:321)
@@ -148,9 +147,7 @@ class About extends StatelessWidget {
                   //       ),
                   //     ),
                   //   ),
-=======
                   children: [
->>>>>>> 0db5908823fd08ce0d934ae60a3bb1d5ef1be01e
                     Positioned(
                       // aboutuswym (107:390)
                       left: 23*fem,
@@ -694,7 +691,6 @@ class About extends StatelessWidget {
                         ),
                       ),
                     ),
-<<<<<<< HEAD
                     // Positioned(
                     //   // iconbackFVD (151:21)
                     //   left: 166*fem,
@@ -711,8 +707,6 @@ class About extends StatelessWidget {
                     //     ),
                     //   ),
                     // ),
-=======
->>>>>>> 0db5908823fd08ce0d934ae60a3bb1d5ef1be01e
                   ],
                 ),
               ),
