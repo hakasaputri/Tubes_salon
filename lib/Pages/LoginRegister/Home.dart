@@ -70,55 +70,61 @@ class _HomeState extends State<Home> {
           // title: Text('Hi, Jessica Pauline'),
         ),
         drawer: Drawer(
-          child: ListView(
-            children: [
-              DrawerHeader(
-                decoration: BoxDecoration(color: Color(0xffffffff)),
-                child: Row(
-                  children: [
-                    SizedBox(width: 10),
-                    CircleAvatar(
-                      backgroundImage: NetworkImage("http://medialengka.com/profile.jpg"),
-                      maxRadius: 30,
-                    ),
-                    SizedBox(width: 20),
-                    Text("username",
-                        style: TextStyle(fontSize: 15, color: Colors.white)
-                    )
-                  ],
-                ),
+        child: ListView(
+          children: [
+            DrawerHeader(
+              decoration: BoxDecoration(color: Color(0xffffffff)),
+              child: Row(
+                children: [
+                  SizedBox(width: 10),
+                  CircleAvatar(
+                    backgroundImage:
+                        NetworkImage("http://medialengka.com/profile.jpg"),
+                    maxRadius: 30,
+                  ),
+                  SizedBox(width: 20),
+                  Text("username",
+                      style: TextStyle(fontSize: 15, color: Colors.white))
+                ],
               ),
-              ListTile(
-                  leading: const Icon(Icons.house),
-                  title: Text("Home"),
-                  onTap: (){Navigator.of(context).pushNamed("/home");}
-              ),
-              ListTile(
-                  leading: const Icon(Icons.person_outline),
-                  title: Text("Profile"),
-                  onTap: (){Navigator.of(context).pushNamed("/profile");}
-              ),
-              ListTile(
-                  leading: const Icon(Icons.calculate),
-                  title: Text("Treatment"),
-                  onTap: (){Navigator.of(context).pushNamed("/treatment");}
-              ),
-               ListTile(
-                  leading: const Icon(Icons.calculate),
-                  title: Text("Notifications"),
-                  onTap: (){Navigator.of(context).pushNamed("/notification");}
-              ),
-               ListTile(
-                  leading: const Icon(Icons.calculate),
-                  title: Text("About us"),
-                  onTap: (){Navigator.of(context).pushNamed("/about");}
-              ),
-               ListTile(
-                  leading: const Icon(Icons.calculate),
-                  title: Text("Help"),
-                  onTap: (){Navigator.of(context).pushNamed("/help");}
-              ),
-              Container(
+            ), 
+            ListTile(
+                leading: const Icon(Icons.house),
+                title: Text("Home"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/home");
+                }),
+            ListTile(
+                leading: const Icon(Icons.person_outline),
+                title: Text("Profile"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/profile");
+                }),
+            ListTile(
+                leading: const Icon(Icons.calculate),
+                title: Text("Treatment"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/detail");
+                }),
+            ListTile(
+                leading: const Icon(Icons.calculate),
+                title: Text("Notifications"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/notif");
+                }),
+            ListTile(
+                leading: const Icon(Icons.calculate),
+                title: Text("About us"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/about");
+                }),
+            ListTile(
+                leading: const Icon(Icons.calculate),
+                title: Text("Help"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/help");
+                }),
+            Container(
                   child: Align(
                       alignment: FractionalOffset.bottomCenter,
                       child: Column(
@@ -126,14 +132,14 @@ class _HomeState extends State<Home> {
                           Divider(),
                           ListTile(
                               leading: Icon(Icons.logout),
-                              title: Text('Log out'))
+                              title: Text('Log out'),
+                              onTap: (){Navigator.of(context).pushNamed("/");}
+                          )
                         ],
-                      )
-                    )
-                  ),
-            ],
-          ),
+                      ))),
+          ],
         ),
+      ),
         body: Container(
           child: Column(
             children: <Widget>[
@@ -200,41 +206,6 @@ class _HomeState extends State<Home> {
             ],
           ),
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Color(0xff000000),
-          unselectedItemColor: Colors.white,
-          selectedItemColor: Color(0xffffb0b0),
-          items: [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: ('Home'),
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.notifications),
-              label: ('Notifications'),
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              label: ('Profile'),
-            ),
-          ],
-          onTap: (int index) {
-            if (index == 0) {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => Home(),
-                ),
-              );
-            } else if (index == 1) {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => Notif(),
-                ),
-              );
-            }
-          },
-        ));
+        );
   }
 }
