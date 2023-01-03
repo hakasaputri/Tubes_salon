@@ -66,14 +66,77 @@ class _HelpFormState extends State<HelpForm> {
       appBar: AppBar(
         elevation: 0,
         brightness: Brightness.light,
-        backgroundColor: Hijau,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: Icon(Icons.arrow_back,
-            size: 20,
-            color: Colors.black,),
+        backgroundColor: Pink,
+      ),
+       drawer: Drawer(
+        child: ListView(
+          children: [
+            DrawerHeader(
+              decoration: BoxDecoration(color: Color(0xffffffff)),
+              child: Row(
+                children: [
+                  SizedBox(width: 10),
+                  CircleAvatar(
+                    backgroundImage:
+                        NetworkImage("http://medialengka.com/profile.jpg"),
+                    maxRadius: 30,
+                  ),
+                  SizedBox(width: 20),
+                  Text("username",
+                      style: TextStyle(fontSize: 15, color: Colors.white))
+                ],
+              ),
+            ), 
+            ListTile(
+                leading: const Icon(Icons.house),
+                title: Text("Home"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/home");
+                }),
+            ListTile(
+                leading: const Icon(Icons.person_outline),
+                title: Text("Profile"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/profile");
+                }),
+            ListTile(
+                leading: const Icon(Icons.calculate),
+                title: Text("Treatment"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/detail");
+                }),
+            ListTile(
+                leading: const Icon(Icons.calculate),
+                title: Text("Notifications"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/notif");
+                }),
+            ListTile(
+                leading: const Icon(Icons.calculate),
+                title: Text("About us"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/about");
+                }),
+            ListTile(
+                leading: const Icon(Icons.calculate),
+                title: Text("Help"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/help");
+                }),
+            Container(
+                  child: Align(
+                      alignment: FractionalOffset.bottomCenter,
+                      child: Column(
+                        children: <Widget>[
+                          Divider(),
+                          ListTile(
+                              leading: Icon(Icons.logout),
+                              title: Text('Log out'),
+                              onTap: (){Navigator.of(context).pushNamed("/");}
+                          )
+                        ],
+                      ))),
+          ],
         ),
       ),
       body: SingleChildScrollView(
