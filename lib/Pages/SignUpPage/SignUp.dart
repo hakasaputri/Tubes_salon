@@ -76,7 +76,7 @@ class SignUpPage extends StatelessWidget{
 
                 child: ElevatedButton(
                   onPressed: (){
-                    Navigator.of(context).pushNamed("/");
+                    Navigator.of(context).pushNamed("/confirmation");
                   },
                   child: Text("Create account"),
                   style: ElevatedButton.styleFrom(
