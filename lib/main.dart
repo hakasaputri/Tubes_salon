@@ -10,6 +10,9 @@ import 'package:tubes_provis/Pages/LoginRegister/DetailTreatment.dart';
 import 'package:tubes_provis/Pages/LoginRegister/Home.dart';
 import 'package:tubes_provis/Pages/Notification/Notif.dart';
 import 'package:tubes_provis/Pages/About/About.dart';
+import 'package:tubes_provis/Pages/Confirmation/Confirmation.dart';
+import 'package:tubes_provis/Pages/Profile/Profile.dart';
+import 'package:tubes_provis/Pages/EditProfile/EditProfile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,6 +42,9 @@ class MyApp extends StatelessWidget {
         '/notif': (contex) => Notif(),
         '/about': (contex) => About(),
         '/detail': (contex) => DetailTreatmentPage(),
+        '/confirmation': (contex) => Confirmation(),
+        '/profile': (contex) => Profile(),
+        '/edit_profile': (contex) => Edit_profile(),
       },
     );
   }
